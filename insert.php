@@ -1,14 +1,16 @@
 <?php
 
+
 include("dbcon.php");
 
-$vd = (int)$_POST['userID']; 
+
 $vt = $_POST['name']; 
 $di = $_POST['email']; 
 $st = $_POST['username']; 
 $et = $_POST['password'];
 
-$sql = "INSERT INTO visit (user_id,name,email,username,password) values ('$vd','$vt','$di','$st','$et')";
+
+$sql = "INSERT INTO dbv3.users (name,email,username,password) values ('$vt','$di','$st','$et')";
 
 //echo $sql;
 
