@@ -3,8 +3,6 @@ create database dbv2;
 use dbv2;
 create table Users (
     id int auto_increment,
-    Name varchar(30),
-    Email varchar(30),
     Username varchar(30),
     Password varchar(30),
     primary key(id)
