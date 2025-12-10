@@ -1,6 +1,6 @@
-drop database if exists dbv2;
-create database dbv2;
-use dbv2;
+drop database if exists dbv3;
+create database dbv3;
+use dbv3;
 create table Users (
     id int auto_increment,
     Name varchar(30),

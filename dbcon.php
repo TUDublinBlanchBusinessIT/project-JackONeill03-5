@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "Pass4!!";
-$dbname = "bookflight";
+$password = "";
+$dbname = "";
 $port = 3306;
 
 // Create connection
