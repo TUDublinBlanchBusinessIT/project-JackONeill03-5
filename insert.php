@@ -2,13 +2,13 @@
 
 include("dbcon.php");
 
-$vd = $_POST['visitDate']; 
-$vt = $_POST['visitTime']; 
-$di = (int)$_POST['doctorid']; 
-$st = (int)$_POST['patientid']; 
-$et = $_POST['cost'];
+$vd = (int)$_POST['userID']; 
+$vt = $_POST['name']; 
+$di = $_POST['email']; 
+$st = $_POST['username']; 
+$et = $_POST['password'];
 
-$sql = "INSERT INTO visit (user_id,,doctor_id,patient_id,cost) values ('$vd','$vt','$di','$st','$et')";
+$sql = "INSERT INTO visit (user_id,name,email,username,password) values ('$vd','$vt','$di','$st','$et')";
 
 //echo $sql;
 
